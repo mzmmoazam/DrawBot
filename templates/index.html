@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <title>Draw bot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main2.css') }}">
+  <script src="{{ url_for('static',filename='js/app204.js') }}" ></script>
+  <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="containercolour">
+  <div class="container nopadding ">
+
+</div>
+    <!--sssstttt  -->
+
+<div class="container bootstrap snippet ">
+    <h1 align="center">Draw Bot</h1>
+  <div class="row">
+  <div class="col-sm-8 nopadding">
+      <canvas id="mycanvas" width="780" height="480"></canvas>
+    <!--<div class="nopadding" style="top-margin: opx;"><br></div>-->
+
+  </div>
+
+        <div class="col-sm-4 nopadding">
+            <div class="portlet portlet-default">
+                <div class="portlet-heading">
+                    <div class="portlet-title">
+                        <h4><i class="fa fa-circle text-green"></i>Draw bot</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="chat" class="panel-collapse collapse in">
+                    <div>
+                    <div class="portlet-body chat-widget"  style="overflow-y: auto; width: auto; height: 300px;">
+                      <div id="inserthere">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="media">
+                                    <!-- <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" src="http://lorempixel.com/30/30/people/7/" alt="">
+                                    </a> -->
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Bot
+                                            <!-- <span class="small pull-right">12:28 PM</span> -->
+                                        </h4>
+                                        <p>Hello, this is DrawBot.Let's learn about new  shapes like.</p>
+                                            <ul>
+                                                <li>Square</li>
+                                                <li>Rectangle</li>
+                                                <li>Circle</li>
+                                                <li>Triangle</li>
+                                                <li>Rhombus</li>
+                                                <li>Hexagon</li>
+                                                <li>cube</li>
+                                                <li>cuboid</li>
+                                            </ul>
+                                        <p>plus you can do this for any of this </p>
+                                        <p>shape_1 above shape_2 by x units.Similarly left,right and below </p>
+                                        <p>Start,By typing anyone of them.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+
+                      </div>
+                    </div>
+                    </div>
+                    <div class="portlet-footer">
+                        <form role="form" id="form">
+                            <div class="form-group">
+                                <textarea class="form-control" id="usrmsg" placeholder="Enter message..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="smtbtn"class="btn btn-default pull-right">Send</button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+      </div>
+    </div>
+      <div class="row">
+          <br><br><br>
+      </div>
+</div>
+    <!--eennn  -->
+
+</body>
+
+</html>
