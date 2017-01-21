@@ -1,7 +1,7 @@
 import json
 import apiai
 
-CLIENT_ACCESS_TOKEN = '278ad406f1c54d81a8ed262eeb135b0d'
+CLIENT_ACCESS_TOKEN = 'api key'
 
 
 def nlu(mytext):
